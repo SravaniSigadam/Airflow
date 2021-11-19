@@ -1,0 +1,84 @@
+[2021-11-17 01:06:15,709] {processor.py:163} INFO - Started process (PID=44813) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 01:06:15,710] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-11-17 01:06:15,710] {logging_mixin.py:109} INFO - [2021-11-17 01:06:15,710] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 01:06:15,743] {processor.py:637} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 01:06:15,892] {logging_mixin.py:109} INFO - [2021-11-17 01:06:15,892] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 01:06:15,898] {logging_mixin.py:109} INFO - [2021-11-17 01:06:15,898] {dag.py:2928} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00
+[2021-11-17 01:06:15,904] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.195 seconds
+[2021-11-17 01:07:23,323] {processor.py:163} INFO - Started process (PID=44855) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 01:07:23,323] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-11-17 01:07:23,324] {logging_mixin.py:109} INFO - [2021-11-17 01:07:23,324] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 01:07:23,357] {processor.py:637} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 01:07:23,532] {logging_mixin.py:109} INFO - [2021-11-17 01:07:23,532] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 01:07:23,539] {logging_mixin.py:109} INFO - [2021-11-17 01:07:23,539] {dag.py:2928} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00
+[2021-11-17 01:07:23,546] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.223 seconds
+[2021-11-17 01:08:37,590] {processor.py:163} INFO - Started process (PID=44898) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 01:08:37,591] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-11-17 01:08:37,591] {logging_mixin.py:109} INFO - [2021-11-17 01:08:37,591] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 01:08:37,623] {processor.py:637} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 01:08:37,769] {logging_mixin.py:109} INFO - [2021-11-17 01:08:37,769] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 01:08:37,775] {logging_mixin.py:109} INFO - [2021-11-17 01:08:37,775] {dag.py:2928} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00
+[2021-11-17 01:08:37,781] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.191 seconds
+[2021-11-17 01:09:51,138] {processor.py:163} INFO - Started process (PID=44962) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 01:09:51,139] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-11-17 01:09:51,139] {logging_mixin.py:109} INFO - [2021-11-17 01:09:51,139] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 01:09:51,174] {processor.py:637} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 01:09:51,323] {logging_mixin.py:109} INFO - [2021-11-17 01:09:51,322] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 01:09:51,328] {logging_mixin.py:109} INFO - [2021-11-17 01:09:51,328] {dag.py:2928} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00
+[2021-11-17 01:09:51,335] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.197 seconds
+[2021-11-17 01:11:04,985] {processor.py:163} INFO - Started process (PID=45005) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 01:11:04,986] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-11-17 01:11:04,986] {logging_mixin.py:109} INFO - [2021-11-17 01:11:04,986] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 01:11:05,022] {processor.py:637} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 01:11:05,167] {logging_mixin.py:109} INFO - [2021-11-17 01:11:05,167] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 01:11:05,173] {logging_mixin.py:109} INFO - [2021-11-17 01:11:05,173] {dag.py:2928} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00
+[2021-11-17 01:11:05,179] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.194 seconds
+[2021-11-17 01:12:18,866] {processor.py:163} INFO - Started process (PID=45042) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 01:12:18,866] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-11-17 01:12:18,866] {logging_mixin.py:109} INFO - [2021-11-17 01:12:18,866] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 01:12:18,900] {processor.py:637} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 01:12:19,044] {logging_mixin.py:109} INFO - [2021-11-17 01:12:19,044] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 01:12:19,050] {logging_mixin.py:109} INFO - [2021-11-17 01:12:19,050] {dag.py:2928} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00
+[2021-11-17 01:12:19,056] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.191 seconds
+[2021-11-17 01:13:31,918] {processor.py:163} INFO - Started process (PID=45079) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 01:13:31,918] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-11-17 01:13:31,919] {logging_mixin.py:109} INFO - [2021-11-17 01:13:31,919] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 01:13:31,953] {processor.py:637} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 01:13:32,098] {logging_mixin.py:109} INFO - [2021-11-17 01:13:32,098] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 01:13:32,104] {logging_mixin.py:109} INFO - [2021-11-17 01:13:32,104] {dag.py:2928} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00
+[2021-11-17 01:13:32,109] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.192 seconds
+[2021-11-17 01:14:46,084] {processor.py:163} INFO - Started process (PID=45115) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 01:14:46,084] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-11-17 01:14:46,085] {logging_mixin.py:109} INFO - [2021-11-17 01:14:46,085] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 01:14:46,118] {processor.py:637} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 01:14:46,265] {logging_mixin.py:109} INFO - [2021-11-17 01:14:46,265] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 01:14:46,270] {logging_mixin.py:109} INFO - [2021-11-17 01:14:46,270] {dag.py:2928} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00
+[2021-11-17 01:14:46,276] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.192 seconds
+[2021-11-17 01:20:11,824] {processor.py:163} INFO - Started process (PID=45188) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 01:20:11,825] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-11-17 01:20:11,826] {logging_mixin.py:109} INFO - [2021-11-17 01:20:11,826] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 01:20:11,861] {processor.py:637} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 01:20:12,011] {logging_mixin.py:109} INFO - [2021-11-17 01:20:12,011] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 01:20:12,017] {logging_mixin.py:109} INFO - [2021-11-17 01:20:12,017] {dag.py:2928} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00
+[2021-11-17 01:20:12,023] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.199 seconds
+[2021-11-17 03:36:51,501] {processor.py:163} INFO - Started process (PID=45278) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 03:36:51,501] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-11-17 03:36:51,501] {logging_mixin.py:109} INFO - [2021-11-17 03:36:51,501] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 03:36:51,533] {processor.py:637} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 03:36:51,686] {logging_mixin.py:109} INFO - [2021-11-17 03:36:51,685] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 03:36:51,691] {logging_mixin.py:109} INFO - [2021-11-17 03:36:51,691] {dag.py:2928} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00
+[2021-11-17 03:36:51,697] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.197 seconds
+[2021-11-17 07:11:37,700] {processor.py:163} INFO - Started process (PID=45360) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 07:11:37,701] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-11-17 07:11:37,701] {logging_mixin.py:109} INFO - [2021-11-17 07:11:37,701] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 07:11:37,738] {processor.py:637} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 07:11:37,938] {logging_mixin.py:109} INFO - [2021-11-17 07:11:37,938] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 07:11:37,945] {logging_mixin.py:109} INFO - [2021-11-17 07:11:37,945] {dag.py:2928} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00
+[2021-11-17 07:11:37,954] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.255 seconds
+[2021-11-17 12:13:35,937] {processor.py:163} INFO - Started process (PID=45467) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 12:13:35,938] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-11-17 12:13:35,938] {logging_mixin.py:109} INFO - [2021-11-17 12:13:35,938] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 12:13:35,975] {processor.py:637} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2021-11-17 12:13:36,120] {logging_mixin.py:109} INFO - [2021-11-17 12:13:36,120] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 12:13:36,126] {logging_mixin.py:109} INFO - [2021-11-17 12:13:36,126] {dag.py:2928} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00
+[2021-11-17 12:13:36,132] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.195 seconds

@@ -1,0 +1,77 @@
+[2021-11-17 01:06:42,914] {processor.py:163} INFO - Started process (PID=44831) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 01:06:42,915] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-11-17 01:06:42,915] {logging_mixin.py:109} INFO - [2021-11-17 01:06:42,915] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 01:06:42,939] {processor.py:637} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 01:06:42,949] {logging_mixin.py:109} INFO - [2021-11-17 01:06:42,949] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 01:06:42,954] {logging_mixin.py:109} INFO - [2021-11-17 01:06:42,954] {dag.py:2928} INFO - Setting next_dagrun for latest_only to 2021-11-17T05:06:42.954482+00:00
+[2021-11-17 01:06:42,959] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.045 seconds
+[2021-11-17 01:07:56,722] {processor.py:163} INFO - Started process (PID=44875) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 01:07:56,723] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-11-17 01:07:56,723] {logging_mixin.py:109} INFO - [2021-11-17 01:07:56,723] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 01:07:56,746] {processor.py:637} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 01:07:56,756] {logging_mixin.py:109} INFO - [2021-11-17 01:07:56,756] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 01:07:56,762] {logging_mixin.py:109} INFO - [2021-11-17 01:07:56,762] {dag.py:2928} INFO - Setting next_dagrun for latest_only to 2021-11-17T05:07:56.761963+00:00
+[2021-11-17 01:07:56,767] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.045 seconds
+[2021-11-17 01:09:10,411] {processor.py:163} INFO - Started process (PID=44919) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 01:09:10,412] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-11-17 01:09:10,413] {logging_mixin.py:109} INFO - [2021-11-17 01:09:10,413] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 01:09:10,435] {processor.py:637} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 01:09:10,445] {logging_mixin.py:109} INFO - [2021-11-17 01:09:10,445] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 01:09:10,450] {logging_mixin.py:109} INFO - [2021-11-17 01:09:10,450] {dag.py:2928} INFO - Setting next_dagrun for latest_only to 2021-11-17T05:09:10.450494+00:00
+[2021-11-17 01:09:10,456] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.045 seconds
+[2021-11-17 01:10:24,361] {processor.py:163} INFO - Started process (PID=44981) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 01:10:24,362] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-11-17 01:10:24,363] {logging_mixin.py:109} INFO - [2021-11-17 01:10:24,363] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 01:10:24,385] {processor.py:637} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 01:10:24,395] {logging_mixin.py:109} INFO - [2021-11-17 01:10:24,395] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 01:10:24,400] {logging_mixin.py:109} INFO - [2021-11-17 01:10:24,400] {dag.py:2928} INFO - Setting next_dagrun for latest_only to 2021-11-17T05:10:24.400747+00:00
+[2021-11-17 01:10:24,405] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.044 seconds
+[2021-11-17 01:11:37,968] {processor.py:163} INFO - Started process (PID=45021) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 01:11:37,968] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-11-17 01:11:37,968] {logging_mixin.py:109} INFO - [2021-11-17 01:11:37,968] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 01:11:37,992] {processor.py:637} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 01:11:38,002] {logging_mixin.py:109} INFO - [2021-11-17 01:11:38,002] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 01:11:38,007] {logging_mixin.py:109} INFO - [2021-11-17 01:11:38,007] {dag.py:2928} INFO - Setting next_dagrun for latest_only to 2021-11-17T05:11:38.007769+00:00
+[2021-11-17 01:11:38,013] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.045 seconds
+[2021-11-17 01:12:51,451] {processor.py:163} INFO - Started process (PID=45059) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 01:12:51,452] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-11-17 01:12:51,452] {logging_mixin.py:109} INFO - [2021-11-17 01:12:51,452] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 01:12:51,475] {processor.py:637} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 01:12:51,485] {logging_mixin.py:109} INFO - [2021-11-17 01:12:51,485] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 01:12:51,490] {logging_mixin.py:109} INFO - [2021-11-17 01:12:51,490] {dag.py:2928} INFO - Setting next_dagrun for latest_only to 2021-11-17T05:12:51.490648+00:00
+[2021-11-17 01:12:51,496] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.045 seconds
+[2021-11-17 01:14:05,230] {processor.py:163} INFO - Started process (PID=45095) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 01:14:05,231] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-11-17 01:14:05,231] {logging_mixin.py:109} INFO - [2021-11-17 01:14:05,231] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 01:14:05,255] {processor.py:637} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 01:14:05,265] {logging_mixin.py:109} INFO - [2021-11-17 01:14:05,265] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 01:14:05,270] {logging_mixin.py:109} INFO - [2021-11-17 01:14:05,270] {dag.py:2928} INFO - Setting next_dagrun for latest_only to 2021-11-17T05:14:05.269944+00:00
+[2021-11-17 01:14:05,275] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.045 seconds
+[2021-11-17 01:15:18,909] {processor.py:163} INFO - Started process (PID=45131) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 01:15:18,909] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-11-17 01:15:18,909] {logging_mixin.py:109} INFO - [2021-11-17 01:15:18,909] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 01:15:18,932] {processor.py:637} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 01:15:18,942] {logging_mixin.py:109} INFO - [2021-11-17 01:15:18,942] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 01:15:18,947] {logging_mixin.py:109} INFO - [2021-11-17 01:15:18,947] {dag.py:2928} INFO - Setting next_dagrun for latest_only to 2021-11-17T05:15:18.947527+00:00
+[2021-11-17 01:15:18,952] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.044 seconds
+[2021-11-17 01:20:38,741] {processor.py:163} INFO - Started process (PID=45207) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 01:20:38,742] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-11-17 01:20:38,742] {logging_mixin.py:109} INFO - [2021-11-17 01:20:38,742] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 01:20:38,766] {processor.py:637} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 01:20:38,776] {logging_mixin.py:109} INFO - [2021-11-17 01:20:38,776] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 01:20:38,783] {logging_mixin.py:109} INFO - [2021-11-17 01:20:38,783] {dag.py:2928} INFO - Setting next_dagrun for latest_only to 2021-11-17T05:20:38.783155+00:00
+[2021-11-17 01:20:38,788] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.047 seconds
+[2021-11-17 08:57:38,462] {processor.py:163} INFO - Started process (PID=45404) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 08:57:38,462] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-11-17 08:57:38,462] {logging_mixin.py:109} INFO - [2021-11-17 08:57:38,462] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 08:57:38,486] {processor.py:637} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 08:57:38,500] {logging_mixin.py:109} INFO - [2021-11-17 08:57:38,500] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 08:57:38,506] {logging_mixin.py:109} INFO - [2021-11-17 08:57:38,506] {dag.py:2928} INFO - Setting next_dagrun for latest_only to 2021-11-17T12:57:38.505997+00:00
+[2021-11-17 08:57:38,511] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.049 seconds
+[2021-11-17 14:28:18,740] {processor.py:163} INFO - Started process (PID=45501) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 14:28:18,741] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-11-17 14:28:18,741] {logging_mixin.py:109} INFO - [2021-11-17 14:28:18,741] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 14:28:18,764] {processor.py:637} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-17 14:28:18,774] {logging_mixin.py:109} INFO - [2021-11-17 14:28:18,774] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 14:28:18,779] {logging_mixin.py:109} INFO - [2021-11-17 14:28:18,779] {dag.py:2928} INFO - Setting next_dagrun for latest_only to 2021-11-17T18:28:18.779508+00:00
+[2021-11-17 14:28:18,783] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.043 seconds

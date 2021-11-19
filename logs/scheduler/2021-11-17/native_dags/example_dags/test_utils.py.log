@@ -1,0 +1,84 @@
+[2021-11-17 01:06:11,686] {processor.py:163} INFO - Started process (PID=44806) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 01:06:11,686] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-11-17 01:06:11,686] {logging_mixin.py:109} INFO - [2021-11-17 01:06:11,686] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 01:06:11,710] {processor.py:637} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 01:06:11,720] {logging_mixin.py:109} INFO - [2021-11-17 01:06:11,720] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 01:06:11,725] {logging_mixin.py:109} INFO - [2021-11-17 01:06:11,725] {dag.py:2928} INFO - Setting next_dagrun for test_utils to None
+[2021-11-17 01:06:11,730] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py took 0.045 seconds
+[2021-11-17 01:07:18,701] {processor.py:163} INFO - Started process (PID=44852) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 01:07:18,702] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-11-17 01:07:18,702] {logging_mixin.py:109} INFO - [2021-11-17 01:07:18,702] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 01:07:18,724] {processor.py:637} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 01:07:18,734] {logging_mixin.py:109} INFO - [2021-11-17 01:07:18,734] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 01:07:18,739] {logging_mixin.py:109} INFO - [2021-11-17 01:07:18,739] {dag.py:2928} INFO - Setting next_dagrun for test_utils to None
+[2021-11-17 01:07:18,743] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py took 0.043 seconds
+[2021-11-17 01:08:33,646] {processor.py:163} INFO - Started process (PID=44896) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 01:08:33,647] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-11-17 01:08:33,647] {logging_mixin.py:109} INFO - [2021-11-17 01:08:33,647] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 01:08:33,669] {processor.py:637} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 01:08:33,680] {logging_mixin.py:109} INFO - [2021-11-17 01:08:33,680] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 01:08:33,685] {logging_mixin.py:109} INFO - [2021-11-17 01:08:33,685] {dag.py:2928} INFO - Setting next_dagrun for test_utils to None
+[2021-11-17 01:08:33,689] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py took 0.043 seconds
+[2021-11-17 01:09:47,179] {processor.py:163} INFO - Started process (PID=44959) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 01:09:47,181] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-11-17 01:09:47,181] {logging_mixin.py:109} INFO - [2021-11-17 01:09:47,181] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 01:09:47,204] {processor.py:637} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 01:09:47,214] {logging_mixin.py:109} INFO - [2021-11-17 01:09:47,214] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 01:09:47,219] {logging_mixin.py:109} INFO - [2021-11-17 01:09:47,219] {dag.py:2928} INFO - Setting next_dagrun for test_utils to None
+[2021-11-17 01:09:47,224] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py took 0.045 seconds
+[2021-11-17 01:11:01,082] {processor.py:163} INFO - Started process (PID=45003) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 01:11:01,083] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-11-17 01:11:01,084] {logging_mixin.py:109} INFO - [2021-11-17 01:11:01,084] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 01:11:01,108] {processor.py:637} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 01:11:01,118] {logging_mixin.py:109} INFO - [2021-11-17 01:11:01,118] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 01:11:01,123] {logging_mixin.py:109} INFO - [2021-11-17 01:11:01,123] {dag.py:2928} INFO - Setting next_dagrun for test_utils to None
+[2021-11-17 01:11:01,128] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py took 0.046 seconds
+[2021-11-17 01:12:14,861] {processor.py:163} INFO - Started process (PID=45040) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 01:12:14,861] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-11-17 01:12:14,861] {logging_mixin.py:109} INFO - [2021-11-17 01:12:14,861] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 01:12:14,884] {processor.py:637} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 01:12:14,894] {logging_mixin.py:109} INFO - [2021-11-17 01:12:14,894] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 01:12:14,899] {logging_mixin.py:109} INFO - [2021-11-17 01:12:14,899] {dag.py:2928} INFO - Setting next_dagrun for test_utils to None
+[2021-11-17 01:12:14,904] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py took 0.043 seconds
+[2021-11-17 01:13:27,310] {processor.py:163} INFO - Started process (PID=45077) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 01:13:27,311] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-11-17 01:13:27,311] {logging_mixin.py:109} INFO - [2021-11-17 01:13:27,311] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 01:13:27,333] {processor.py:637} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 01:13:27,343] {logging_mixin.py:109} INFO - [2021-11-17 01:13:27,343] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 01:13:27,348] {logging_mixin.py:109} INFO - [2021-11-17 01:13:27,348] {dag.py:2928} INFO - Setting next_dagrun for test_utils to None
+[2021-11-17 01:13:27,353] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py took 0.043 seconds
+[2021-11-17 01:14:42,026] {processor.py:163} INFO - Started process (PID=45113) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 01:14:42,026] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-11-17 01:14:42,026] {logging_mixin.py:109} INFO - [2021-11-17 01:14:42,026] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 01:14:42,049] {processor.py:637} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 01:14:42,060] {logging_mixin.py:109} INFO - [2021-11-17 01:14:42,059] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 01:14:42,065] {logging_mixin.py:109} INFO - [2021-11-17 01:14:42,065] {dag.py:2928} INFO - Setting next_dagrun for test_utils to None
+[2021-11-17 01:14:42,070] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py took 0.044 seconds
+[2021-11-17 01:20:07,096] {processor.py:163} INFO - Started process (PID=45168) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 01:20:07,097] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-11-17 01:20:07,097] {logging_mixin.py:109} INFO - [2021-11-17 01:20:07,097] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 01:20:07,131] {processor.py:637} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 01:20:07,143] {logging_mixin.py:109} INFO - [2021-11-17 01:20:07,143] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 01:20:07,150] {logging_mixin.py:109} INFO - [2021-11-17 01:20:07,150] {dag.py:2928} INFO - Setting next_dagrun for test_utils to None
+[2021-11-17 01:20:07,155] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py took 0.060 seconds
+[2021-11-17 01:36:46,890] {processor.py:163} INFO - Started process (PID=45245) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 01:36:46,890] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-11-17 01:36:46,891] {logging_mixin.py:109} INFO - [2021-11-17 01:36:46,891] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 01:36:46,912] {processor.py:637} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 01:36:46,922] {logging_mixin.py:109} INFO - [2021-11-17 01:36:46,922] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 01:36:46,927] {logging_mixin.py:109} INFO - [2021-11-17 01:36:46,927] {dag.py:2928} INFO - Setting next_dagrun for test_utils to None
+[2021-11-17 01:36:46,931] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py took 0.042 seconds
+[2021-11-17 06:50:58,727] {processor.py:163} INFO - Started process (PID=45357) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 06:50:58,728] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-11-17 06:50:58,729] {logging_mixin.py:109} INFO - [2021-11-17 06:50:58,729] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 06:50:58,756] {processor.py:637} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 06:50:58,766] {logging_mixin.py:109} INFO - [2021-11-17 06:50:58,766] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 06:50:58,772] {logging_mixin.py:109} INFO - [2021-11-17 06:50:58,772] {dag.py:2928} INFO - Setting next_dagrun for test_utils to None
+[2021-11-17 06:50:58,777] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py took 0.050 seconds
+[2021-11-17 11:58:20,187] {processor.py:163} INFO - Started process (PID=45461) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 11:58:20,187] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-11-17 11:58:20,187] {logging_mixin.py:109} INFO - [2021-11-17 11:58:20,187] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 11:58:20,209] {processor.py:637} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-11-17 11:58:20,219] {logging_mixin.py:109} INFO - [2021-11-17 11:58:20,219] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-17 11:58:20,224] {logging_mixin.py:109} INFO - [2021-11-17 11:58:20,224] {dag.py:2928} INFO - Setting next_dagrun for test_utils to None
+[2021-11-17 11:58:20,229] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py took 0.043 seconds

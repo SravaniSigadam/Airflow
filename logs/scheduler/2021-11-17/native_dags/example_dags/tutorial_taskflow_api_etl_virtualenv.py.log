@@ -1,0 +1,640 @@
+[2021-11-17 01:06:03,349] {processor.py:163} INFO - Started process (PID=44799) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:06:03,349] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-17 01:06:03,350] {logging_mixin.py:109} INFO - [2021-11-17 01:06:03,350] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:06:03,369] {logging_mixin.py:109} INFO - [2021-11-17 01:06:03,365] {dagbag.py:334} ERROR - Failed to import: /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-17 01:06:03,384] {processor.py:639} WARNING - No viable dags retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:06:03,387] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.038 seconds
+[2021-11-17 01:07:10,886] {processor.py:163} INFO - Started process (PID=44848) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:07:10,888] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-17 01:07:10,888] {logging_mixin.py:109} INFO - [2021-11-17 01:07:10,888] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:07:10,904] {logging_mixin.py:109} INFO - [2021-11-17 01:07:10,902] {dagbag.py:334} ERROR - Failed to import: /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-17 01:07:10,920] {processor.py:639} WARNING - No viable dags retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:07:10,922] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.036 seconds
+[2021-11-17 01:07:48,362] {processor.py:163} INFO - Started process (PID=44871) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:07:48,363] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-17 01:07:48,363] {logging_mixin.py:109} INFO - [2021-11-17 01:07:48,363] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:07:48,379] {logging_mixin.py:109} INFO - [2021-11-17 01:07:48,377] {dagbag.py:334} ERROR - Failed to import: /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-17 01:07:48,395] {processor.py:639} WARNING - No viable dags retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:07:48,398] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.036 seconds
+[2021-11-17 01:08:25,193] {processor.py:163} INFO - Started process (PID=44892) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:08:25,194] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-17 01:08:25,194] {logging_mixin.py:109} INFO - [2021-11-17 01:08:25,194] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:08:25,213] {logging_mixin.py:109} INFO - [2021-11-17 01:08:25,211] {dagbag.py:334} ERROR - Failed to import: /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-17 01:08:25,229] {processor.py:639} WARNING - No viable dags retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:08:25,231] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.039 seconds
+[2021-11-17 01:09:02,352] {processor.py:163} INFO - Started process (PID=44912) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:09:02,353] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-17 01:09:02,353] {logging_mixin.py:109} INFO - [2021-11-17 01:09:02,353] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:09:02,370] {logging_mixin.py:109} INFO - [2021-11-17 01:09:02,368] {dagbag.py:334} ERROR - Failed to import: /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-17 01:09:02,386] {processor.py:639} WARNING - No viable dags retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:09:02,389] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.037 seconds
+[2021-11-17 01:09:38,901] {processor.py:163} INFO - Started process (PID=44949) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:09:38,901] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-17 01:09:38,901] {logging_mixin.py:109} INFO - [2021-11-17 01:09:38,901] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:09:38,917] {logging_mixin.py:109} INFO - [2021-11-17 01:09:38,915] {dagbag.py:334} ERROR - Failed to import: /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-17 01:09:38,937] {processor.py:639} WARNING - No viable dags retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:09:38,941] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.041 seconds
+[2021-11-17 01:10:15,964] {processor.py:163} INFO - Started process (PID=44977) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:10:15,965] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-17 01:10:15,965] {logging_mixin.py:109} INFO - [2021-11-17 01:10:15,965] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:10:15,984] {logging_mixin.py:109} INFO - [2021-11-17 01:10:15,982] {dagbag.py:334} ERROR - Failed to import: /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-17 01:10:16,000] {processor.py:639} WARNING - No viable dags retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:10:16,003] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.040 seconds
+[2021-11-17 01:10:52,648] {processor.py:163} INFO - Started process (PID=44999) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:10:52,648] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-17 01:10:52,648] {logging_mixin.py:109} INFO - [2021-11-17 01:10:52,648] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:10:52,665] {logging_mixin.py:109} INFO - [2021-11-17 01:10:52,663] {dagbag.py:334} ERROR - Failed to import: /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-17 01:10:52,681] {processor.py:639} WARNING - No viable dags retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:10:52,685] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.037 seconds
+[2021-11-17 01:11:29,549] {processor.py:163} INFO - Started process (PID=45017) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:11:29,550] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-17 01:11:29,550] {logging_mixin.py:109} INFO - [2021-11-17 01:11:29,550] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:11:29,567] {logging_mixin.py:109} INFO - [2021-11-17 01:11:29,565] {dagbag.py:334} ERROR - Failed to import: /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-17 01:11:29,582] {processor.py:639} WARNING - No viable dags retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:11:29,586] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.037 seconds
+[2021-11-17 01:12:06,440] {processor.py:163} INFO - Started process (PID=45036) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:12:06,440] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-17 01:12:06,440] {logging_mixin.py:109} INFO - [2021-11-17 01:12:06,440] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:12:06,457] {logging_mixin.py:109} INFO - [2021-11-17 01:12:06,455] {dagbag.py:334} ERROR - Failed to import: /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-17 01:12:06,473] {processor.py:639} WARNING - No viable dags retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:12:06,476] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.037 seconds
+[2021-11-17 01:12:43,097] {processor.py:163} INFO - Started process (PID=45055) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:12:43,097] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-17 01:12:43,098] {logging_mixin.py:109} INFO - [2021-11-17 01:12:43,098] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:12:43,115] {logging_mixin.py:109} INFO - [2021-11-17 01:12:43,113] {dagbag.py:334} ERROR - Failed to import: /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-17 01:12:43,130] {processor.py:639} WARNING - No viable dags retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:12:43,134] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.037 seconds
+[2021-11-17 01:13:19,486] {processor.py:163} INFO - Started process (PID=45073) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:13:19,486] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-17 01:13:19,486] {logging_mixin.py:109} INFO - [2021-11-17 01:13:19,486] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:13:19,504] {logging_mixin.py:109} INFO - [2021-11-17 01:13:19,502] {dagbag.py:334} ERROR - Failed to import: /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-17 01:13:19,520] {processor.py:639} WARNING - No viable dags retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:13:19,524] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.038 seconds
+[2021-11-17 01:13:56,877] {processor.py:163} INFO - Started process (PID=45091) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:13:56,877] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-17 01:13:56,877] {logging_mixin.py:109} INFO - [2021-11-17 01:13:56,877] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:13:56,894] {logging_mixin.py:109} INFO - [2021-11-17 01:13:56,892] {dagbag.py:334} ERROR - Failed to import: /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-17 01:13:56,909] {processor.py:639} WARNING - No viable dags retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:13:56,913] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.036 seconds
+[2021-11-17 01:14:33,648] {processor.py:163} INFO - Started process (PID=45109) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:14:33,648] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-17 01:14:33,648] {logging_mixin.py:109} INFO - [2021-11-17 01:14:33,648] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:14:33,666] {logging_mixin.py:109} INFO - [2021-11-17 01:14:33,663] {dagbag.py:334} ERROR - Failed to import: /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-17 01:14:33,682] {processor.py:639} WARNING - No viable dags retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:14:33,686] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.038 seconds
+[2021-11-17 01:15:10,667] {processor.py:163} INFO - Started process (PID=45127) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:15:10,668] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-17 01:15:10,668] {logging_mixin.py:109} INFO - [2021-11-17 01:15:10,668] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:15:10,684] {logging_mixin.py:109} INFO - [2021-11-17 01:15:10,683] {dagbag.py:334} ERROR - Failed to import: /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-17 01:15:10,700] {processor.py:639} WARNING - No viable dags retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:15:10,704] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.037 seconds
+[2021-11-17 01:15:59,568] {processor.py:163} INFO - Started process (PID=45155) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:15:59,568] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-17 01:15:59,568] {logging_mixin.py:109} INFO - [2021-11-17 01:15:59,568] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:15:59,586] {logging_mixin.py:109} INFO - [2021-11-17 01:15:59,583] {dagbag.py:334} ERROR - Failed to import: /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-17 01:15:59,602] {processor.py:639} WARNING - No viable dags retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:15:59,605] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.038 seconds
+[2021-11-17 01:20:48,905] {processor.py:163} INFO - Started process (PID=45230) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:20:48,906] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-17 01:20:48,906] {logging_mixin.py:109} INFO - [2021-11-17 01:20:48,906] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:20:48,926] {logging_mixin.py:109} INFO - [2021-11-17 01:20:48,922] {dagbag.py:334} ERROR - Failed to import: /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-17 01:20:48,941] {processor.py:639} WARNING - No viable dags retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 01:20:48,944] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.039 seconds
+[2021-11-17 05:51:30,459] {processor.py:163} INFO - Started process (PID=45335) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 05:51:30,460] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-17 05:51:30,460] {logging_mixin.py:109} INFO - [2021-11-17 05:51:30,460] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 05:51:30,478] {logging_mixin.py:109} INFO - [2021-11-17 05:51:30,475] {dagbag.py:334} ERROR - Failed to import: /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-17 05:51:30,494] {processor.py:639} WARNING - No viable dags retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 05:51:30,497] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.038 seconds
+[2021-11-17 11:14:33,750] {processor.py:163} INFO - Started process (PID=45434) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 11:14:33,751] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-17 11:14:33,751] {logging_mixin.py:109} INFO - [2021-11-17 11:14:33,751] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 11:14:33,779] {logging_mixin.py:109} INFO - [2021-11-17 11:14:33,775] {dagbag.py:334} ERROR - Failed to import: /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-17 11:14:33,795] {processor.py:639} WARNING - No viable dags retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 11:14:33,816] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.066 seconds
+[2021-11-17 15:09:20,646] {processor.py:163} INFO - Started process (PID=45531) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 15:09:20,646] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-17 15:09:20,647] {logging_mixin.py:109} INFO - [2021-11-17 15:09:20,646] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 15:09:20,666] {logging_mixin.py:109} INFO - [2021-11-17 15:09:20,661] {dagbag.py:334} ERROR - Failed to import: /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-17 15:09:20,681] {processor.py:639} WARNING - No viable dags retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-17 15:09:20,685] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.039 seconds

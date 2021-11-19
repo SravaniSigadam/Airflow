@@ -1,0 +1,210 @@
+[2021-11-18 18:24:39,249] {processor.py:163} INFO - Started process (PID=55611) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:24:39,249] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-18 18:24:39,249] {logging_mixin.py:109} INFO - [2021-11-18 18:24:39,249] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:24:39,286] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:24:39,299] {logging_mixin.py:109} INFO - [2021-11-18 18:24:39,299] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-18 18:24:39,304] {logging_mixin.py:109} INFO - [2021-11-18 18:24:39,304] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-18 18:24:39,309] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.060 seconds
+[2021-11-18 18:25:58,129] {processor.py:163} INFO - Started process (PID=55757) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:25:58,130] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-18 18:25:58,130] {logging_mixin.py:109} INFO - [2021-11-18 18:25:58,130] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:25:58,168] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:25:58,183] {logging_mixin.py:109} INFO - [2021-11-18 18:25:58,183] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-18 18:25:58,189] {logging_mixin.py:109} INFO - [2021-11-18 18:25:58,189] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-18 18:25:58,194] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.066 seconds
+[2021-11-18 18:27:18,396] {processor.py:163} INFO - Started process (PID=55828) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:27:18,396] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-18 18:27:18,397] {logging_mixin.py:109} INFO - [2021-11-18 18:27:18,397] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:27:18,435] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:27:18,449] {logging_mixin.py:109} INFO - [2021-11-18 18:27:18,449] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-18 18:27:18,454] {logging_mixin.py:109} INFO - [2021-11-18 18:27:18,454] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-18 18:27:18,460] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.064 seconds
+[2021-11-18 18:28:38,564] {processor.py:163} INFO - Started process (PID=55895) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:28:38,565] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-18 18:28:38,565] {logging_mixin.py:109} INFO - [2021-11-18 18:28:38,565] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:28:38,606] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:28:38,619] {logging_mixin.py:109} INFO - [2021-11-18 18:28:38,619] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-18 18:28:38,624] {logging_mixin.py:109} INFO - [2021-11-18 18:28:38,624] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-18 18:28:38,629] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.065 seconds
+[2021-11-18 18:29:58,587] {processor.py:163} INFO - Started process (PID=55934) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:29:58,588] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-18 18:29:58,588] {logging_mixin.py:109} INFO - [2021-11-18 18:29:58,588] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:29:58,625] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:29:58,640] {logging_mixin.py:109} INFO - [2021-11-18 18:29:58,639] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-18 18:29:58,644] {logging_mixin.py:109} INFO - [2021-11-18 18:29:58,644] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-18 18:29:58,649] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.062 seconds
+[2021-11-18 18:31:18,738] {processor.py:163} INFO - Started process (PID=55975) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:31:18,738] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-18 18:31:18,739] {logging_mixin.py:109} INFO - [2021-11-18 18:31:18,739] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:31:18,775] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:31:18,789] {logging_mixin.py:109} INFO - [2021-11-18 18:31:18,789] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-18 18:31:18,794] {logging_mixin.py:109} INFO - [2021-11-18 18:31:18,794] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-18 18:31:18,799] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.061 seconds
+[2021-11-18 18:32:38,845] {processor.py:163} INFO - Started process (PID=56022) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:32:38,845] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-18 18:32:38,845] {logging_mixin.py:109} INFO - [2021-11-18 18:32:38,845] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:32:38,882] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:32:38,895] {logging_mixin.py:109} INFO - [2021-11-18 18:32:38,895] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-18 18:32:38,900] {logging_mixin.py:109} INFO - [2021-11-18 18:32:38,900] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-18 18:32:38,904] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.060 seconds
+[2021-11-18 18:45:44,960] {processor.py:163} INFO - Started process (PID=56082) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:45:44,961] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-18 18:45:44,961] {logging_mixin.py:109} INFO - [2021-11-18 18:45:44,961] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:45:44,996] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:45:45,009] {logging_mixin.py:109} INFO - [2021-11-18 18:45:45,009] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-18 18:45:45,014] {logging_mixin.py:109} INFO - [2021-11-18 18:45:45,014] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-18 18:45:45,019] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.059 seconds
+[2021-11-18 18:47:15,355] {processor.py:163} INFO - Started process (PID=56139) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:47:15,356] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-18 18:47:15,356] {logging_mixin.py:109} INFO - [2021-11-18 18:47:15,356] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:47:15,394] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:47:15,408] {logging_mixin.py:109} INFO - [2021-11-18 18:47:15,408] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-18 18:47:15,413] {logging_mixin.py:109} INFO - [2021-11-18 18:47:15,413] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-18 18:47:15,418] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.063 seconds
+[2021-11-18 18:48:34,191] {processor.py:163} INFO - Started process (PID=56197) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:48:34,192] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-18 18:48:34,192] {logging_mixin.py:109} INFO - [2021-11-18 18:48:34,192] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:48:34,231] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:48:34,245] {logging_mixin.py:109} INFO - [2021-11-18 18:48:34,245] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-18 18:48:34,250] {logging_mixin.py:109} INFO - [2021-11-18 18:48:34,250] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-18 18:48:34,255] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.064 seconds
+[2021-11-18 18:49:56,654] {processor.py:163} INFO - Started process (PID=56248) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:49:56,655] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-18 18:49:56,655] {logging_mixin.py:109} INFO - [2021-11-18 18:49:56,655] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:49:56,690] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:49:56,703] {logging_mixin.py:109} INFO - [2021-11-18 18:49:56,703] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-18 18:49:56,709] {logging_mixin.py:109} INFO - [2021-11-18 18:49:56,708] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-18 18:49:56,713] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.059 seconds
+[2021-11-18 18:51:12,777] {processor.py:163} INFO - Started process (PID=56287) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:51:12,777] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-18 18:51:12,777] {logging_mixin.py:109} INFO - [2021-11-18 18:51:12,777] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:51:12,814] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:51:12,828] {logging_mixin.py:109} INFO - [2021-11-18 18:51:12,828] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-18 18:51:12,833] {logging_mixin.py:109} INFO - [2021-11-18 18:51:12,833] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-18 18:51:12,838] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.062 seconds
+[2021-11-18 18:52:30,736] {processor.py:163} INFO - Started process (PID=56330) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:52:30,738] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-18 18:52:30,738] {logging_mixin.py:109} INFO - [2021-11-18 18:52:30,738] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:52:30,776] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:52:30,790] {logging_mixin.py:109} INFO - [2021-11-18 18:52:30,790] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-18 18:52:30,795] {logging_mixin.py:109} INFO - [2021-11-18 18:52:30,795] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-18 18:52:30,800] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.064 seconds
+[2021-11-18 18:53:48,910] {processor.py:163} INFO - Started process (PID=56369) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:53:48,910] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-18 18:53:48,910] {logging_mixin.py:109} INFO - [2021-11-18 18:53:48,910] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:53:48,947] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:53:48,962] {logging_mixin.py:109} INFO - [2021-11-18 18:53:48,962] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-18 18:53:48,967] {logging_mixin.py:109} INFO - [2021-11-18 18:53:48,967] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-18 18:53:48,972] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.063 seconds
+[2021-11-18 18:55:06,726] {processor.py:163} INFO - Started process (PID=56410) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:55:06,727] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-18 18:55:06,727] {logging_mixin.py:109} INFO - [2021-11-18 18:55:06,727] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:55:06,763] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:55:06,776] {logging_mixin.py:109} INFO - [2021-11-18 18:55:06,776] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-18 18:55:06,781] {logging_mixin.py:109} INFO - [2021-11-18 18:55:06,781] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-18 18:55:06,785] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.060 seconds
+[2021-11-18 18:56:24,802] {processor.py:163} INFO - Started process (PID=56455) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:56:24,803] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-18 18:56:24,803] {logging_mixin.py:109} INFO - [2021-11-18 18:56:24,803] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:56:24,838] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:56:24,852] {logging_mixin.py:109} INFO - [2021-11-18 18:56:24,852] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-18 18:56:24,857] {logging_mixin.py:109} INFO - [2021-11-18 18:56:24,857] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-18 18:56:24,862] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.061 seconds
+[2021-11-18 18:57:42,383] {processor.py:163} INFO - Started process (PID=56494) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:57:42,383] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-18 18:57:42,383] {logging_mixin.py:109} INFO - [2021-11-18 18:57:42,383] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:57:42,420] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:57:42,434] {logging_mixin.py:109} INFO - [2021-11-18 18:57:42,434] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-18 18:57:42,440] {logging_mixin.py:109} INFO - [2021-11-18 18:57:42,440] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-18 18:57:42,445] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.063 seconds
+[2021-11-18 18:59:01,194] {processor.py:163} INFO - Started process (PID=56542) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:59:01,195] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-18 18:59:01,196] {logging_mixin.py:109} INFO - [2021-11-18 18:59:01,196] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:59:01,234] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 18:59:01,247] {logging_mixin.py:109} INFO - [2021-11-18 18:59:01,247] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-18 18:59:01,252] {logging_mixin.py:109} INFO - [2021-11-18 18:59:01,252] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-18 18:59:01,257] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.063 seconds
+[2021-11-18 19:00:21,672] {processor.py:163} INFO - Started process (PID=56585) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:00:21,672] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-18 19:00:21,673] {logging_mixin.py:109} INFO - [2021-11-18 19:00:21,673] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:00:21,711] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:00:21,725] {logging_mixin.py:109} INFO - [2021-11-18 19:00:21,725] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-18 19:00:21,730] {logging_mixin.py:109} INFO - [2021-11-18 19:00:21,730] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-18 19:00:21,735] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.063 seconds
+[2021-11-18 19:01:39,734] {processor.py:163} INFO - Started process (PID=56633) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:01:39,735] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-18 19:01:39,735] {logging_mixin.py:109} INFO - [2021-11-18 19:01:39,735] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:01:39,772] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:01:39,786] {logging_mixin.py:109} INFO - [2021-11-18 19:01:39,786] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-18 19:01:39,791] {logging_mixin.py:109} INFO - [2021-11-18 19:01:39,791] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-18 19:01:39,796] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.063 seconds
+[2021-11-18 19:02:57,852] {processor.py:163} INFO - Started process (PID=56674) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:02:57,853] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-18 19:02:57,853] {logging_mixin.py:109} INFO - [2021-11-18 19:02:57,853] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:02:57,889] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:02:57,903] {logging_mixin.py:109} INFO - [2021-11-18 19:02:57,903] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-18 19:02:57,908] {logging_mixin.py:109} INFO - [2021-11-18 19:02:57,908] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-18 19:02:57,912] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.061 seconds
+[2021-11-18 19:04:15,645] {processor.py:163} INFO - Started process (PID=56722) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:04:15,645] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-18 19:04:15,645] {logging_mixin.py:109} INFO - [2021-11-18 19:04:15,645] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:04:15,682] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:04:15,696] {logging_mixin.py:109} INFO - [2021-11-18 19:04:15,696] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-18 19:04:15,701] {logging_mixin.py:109} INFO - [2021-11-18 19:04:15,701] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-18 19:04:15,706] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.062 seconds
+[2021-11-18 19:05:34,155] {processor.py:163} INFO - Started process (PID=56774) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:05:34,158] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-18 19:05:34,158] {logging_mixin.py:109} INFO - [2021-11-18 19:05:34,158] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:05:34,195] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:05:34,208] {logging_mixin.py:109} INFO - [2021-11-18 19:05:34,208] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-18 19:05:34,213] {logging_mixin.py:109} INFO - [2021-11-18 19:05:34,213] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-18 19:05:34,218] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.063 seconds
+[2021-11-18 19:06:53,663] {processor.py:163} INFO - Started process (PID=56842) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:06:53,664] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-18 19:06:53,664] {logging_mixin.py:109} INFO - [2021-11-18 19:06:53,664] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:06:53,701] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:06:53,714] {logging_mixin.py:109} INFO - [2021-11-18 19:06:53,714] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-18 19:06:53,720] {logging_mixin.py:109} INFO - [2021-11-18 19:06:53,719] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-18 19:06:53,725] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.062 seconds
+[2021-11-18 19:08:12,208] {processor.py:163} INFO - Started process (PID=56918) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:08:12,209] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-18 19:08:12,210] {logging_mixin.py:109} INFO - [2021-11-18 19:08:12,210] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:08:12,248] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:08:12,262] {logging_mixin.py:109} INFO - [2021-11-18 19:08:12,262] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-18 19:08:12,267] {logging_mixin.py:109} INFO - [2021-11-18 19:08:12,267] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-18 19:08:12,273] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.065 seconds
+[2021-11-18 19:09:30,164] {processor.py:163} INFO - Started process (PID=56964) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:09:30,165] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-18 19:09:30,165] {logging_mixin.py:109} INFO - [2021-11-18 19:09:30,165] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:09:30,203] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:09:30,217] {logging_mixin.py:109} INFO - [2021-11-18 19:09:30,217] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-18 19:09:30,222] {logging_mixin.py:109} INFO - [2021-11-18 19:09:30,222] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-18 19:09:30,227] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.063 seconds
+[2021-11-18 19:10:50,399] {processor.py:163} INFO - Started process (PID=57009) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:10:50,399] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-18 19:10:50,399] {logging_mixin.py:109} INFO - [2021-11-18 19:10:50,399] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:10:50,440] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:10:50,459] {logging_mixin.py:109} INFO - [2021-11-18 19:10:50,458] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-18 19:10:50,465] {logging_mixin.py:109} INFO - [2021-11-18 19:10:50,465] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-18 19:10:50,472] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.073 seconds
+[2021-11-18 19:12:11,440] {processor.py:163} INFO - Started process (PID=57057) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:12:11,440] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-18 19:12:11,440] {logging_mixin.py:109} INFO - [2021-11-18 19:12:11,440] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:12:11,477] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:12:11,491] {logging_mixin.py:109} INFO - [2021-11-18 19:12:11,491] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-18 19:12:11,496] {logging_mixin.py:109} INFO - [2021-11-18 19:12:11,496] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-18 19:12:11,501] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.061 seconds
+[2021-11-18 19:13:33,348] {processor.py:163} INFO - Started process (PID=57126) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:13:33,349] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-18 19:13:33,349] {logging_mixin.py:109} INFO - [2021-11-18 19:13:33,349] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:13:33,384] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:13:33,398] {logging_mixin.py:109} INFO - [2021-11-18 19:13:33,398] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-18 19:13:33,403] {logging_mixin.py:109} INFO - [2021-11-18 19:13:33,403] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-18 19:13:33,408] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.061 seconds
+[2021-11-18 19:14:54,211] {processor.py:163} INFO - Started process (PID=57184) to work on /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:14:54,212] {processor.py:625} INFO - Processing file /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-11-18 19:14:54,212] {logging_mixin.py:109} INFO - [2021-11-18 19:14:54,212] {dagbag.py:500} INFO - Filling up the DagBag from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:14:54,253] {processor.py:637} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2021-11-18 19:14:54,270] {logging_mixin.py:109} INFO - [2021-11-18 19:14:54,269] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-18 19:14:54,277] {logging_mixin.py:109} INFO - [2021-11-18 19:14:54,277] {dag.py:2928} INFO - Setting next_dagrun for example_complex to None
+[2021-11-18 19:14:54,283] {processor.py:171} INFO - Processing /Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.072 seconds

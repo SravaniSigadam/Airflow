@@ -1,0 +1,68 @@
+[2021-11-17 23:55:36,428] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: example_ML_pipeline_DAG.scoring_task manual__2021-11-18T07:55:29.421326+00:00 [queued]>
+[2021-11-17 23:55:36,431] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: example_ML_pipeline_DAG.scoring_task manual__2021-11-18T07:55:29.421326+00:00 [queued]>
+[2021-11-17 23:55:36,447] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2021-11-17 23:55:36,447] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2021-11-17 23:55:36,447] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2021-11-17 23:55:36,452] {taskinstance.py:1262} INFO - Executing <Task(BashOperator): scoring_task> on 2021-11-18 07:55:29.421326+00:00
+[2021-11-17 23:55:36,455] {standard_task_runner.py:52} INFO - Started process 54196 to run task
+[2021-11-17 23:55:36,459] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'example_ML_pipeline_DAG', 'scoring_task', 'manual__2021-11-18T07:55:29.421326+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/SampleDag.py', '--cfg-path', '/var/folders/ts/0394s80n0mq8hyr7msfqdwnh0000gn/T/tmpwl3l2s2a', '--error-file', '/var/folders/ts/0394s80n0mq8hyr7msfqdwnh0000gn/T/tmpxs7s6uht']
+[2021-11-17 23:55:36,461] {standard_task_runner.py:77} INFO - Job 8: Subtask scoring_task
+[2021-11-17 23:55:36,479] {logging_mixin.py:109} INFO - Running <TaskInstance: example_ML_pipeline_DAG.scoring_task manual__2021-11-18T07:55:29.421326+00:00 [running]> on host 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2021-11-17 23:55:36,495] {taskinstance.py:1427} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=example_ML_pipeline_DAG
+AIRFLOW_CTX_TASK_ID=scoring_task
+AIRFLOW_CTX_EXECUTION_DATE=2021-11-18T07:55:29.421326+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-11-18T07:55:29.421326+00:00
+[2021-11-17 23:55:36,495] {subprocess.py:62} INFO - Tmp dir root location: 
+ /var/folders/ts/0394s80n0mq8hyr7msfqdwnh0000gn/T
+[2021-11-17 23:55:36,496] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'python ~/PycharmProjects/Airflow/SampleScript.py']
+[2021-11-17 23:55:36,503] {subprocess.py:85} INFO - Output:
+[2021-11-17 23:55:37,113] {subprocess.py:89} INFO - Traceback (most recent call last):
+[2021-11-17 23:55:37,114] {subprocess.py:89} INFO -   File "/Users/sravanisigadam/PycharmProjects/Airflow/SampleScript.py", line 5, in <module>
+[2021-11-17 23:55:37,114] {subprocess.py:89} INFO -     loaded_rf = joblib.load("my_random_forest.joblib")
+[2021-11-17 23:55:37,115] {subprocess.py:89} INFO -   File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/joblib/numpy_pickle.py", line 579, in load
+[2021-11-17 23:55:37,115] {subprocess.py:89} INFO -     with open(filename, 'rb') as f:
+[2021-11-17 23:55:37,116] {subprocess.py:89} INFO - FileNotFoundError: [Errno 2] No such file or directory: 'my_random_forest.joblib'
+[2021-11-17 23:55:37,178] {subprocess.py:93} INFO - Command exited with return code 1
+[2021-11-17 23:55:37,185] {taskinstance.py:1703} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1332, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1458, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1514, in _execute_task
+    result = execute_callable(context=context)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/operators/bash.py", line 187, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2021-11-17 23:55:37,189] {taskinstance.py:1270} INFO - Marking task as FAILED. dag_id=example_ML_pipeline_DAG, task_id=scoring_task, execution_date=20211118T075529, start_date=20211118T075536, end_date=20211118T075537
+[2021-11-17 23:55:37,195] {standard_task_runner.py:88} ERROR - Failed to execute job 8 for task scoring_task
+Traceback (most recent call last):
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 292, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 180, in _run_raw_task
+    ti._run_raw_task(
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1332, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1458, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1514, in _execute_task
+    result = execute_callable(context=context)
+  File "/Users/sravanisigadam/PycharmProjects/Airflow/venv/lib/python3.9/site-packages/airflow/operators/bash.py", line 187, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2021-11-17 23:55:37,235] {local_task_job.py:154} INFO - Task exited with return code 1
+[2021-11-17 23:55:37,245] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
